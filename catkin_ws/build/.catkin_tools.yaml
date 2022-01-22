@@ -1,0 +1,6 @@
+devel_space: /home/thelinux/catkin_ws/devel
+install: false
+install_space: /home/thelinux/catkin_ws/install
+profile: default
+source_space: /home/thelinux/catkin_ws/src
+workspace: /home/thelinux/catkin_ws

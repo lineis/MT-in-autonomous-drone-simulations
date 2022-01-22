@@ -1,0 +1,20 @@
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp:4:25: error: ‘darknet_ros_msgs’ does not name a type
+    4 | void detection_cb(const darknet_ros_msgs::BoundingBoxes::ConstPtr& msg)
+      |                         ^~~~~~~~~~~~~~~~
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp:4:56: error: expected unqualified-id before ‘::’ token
+    4 | void detection_cb(const darknet_ros_msgs::BoundingBoxes::ConstPtr& msg)
+      |                                                        ^~
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp:4:56: error: expected ‘)’ before ‘::’ token
+    4 | void detection_cb(const darknet_ros_msgs::BoundingBoxes::ConstPtr& msg)
+      |                  ~                                     ^~
+      |                                                        )
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp:4:56: error: expected initializer before ‘::’ token
+    4 | void detection_cb(const darknet_ros_msgs::BoundingBoxes::ConstPtr& msg)
+      |                                                        ^~
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp: In function ‘int main(int, char**)’:
+/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp:18:70: error: ‘detection_cb’ was not declared in this scope
+   18 |  ros::Subscriber sub = n.subscribe("/darknet_ros/bounding_boxes", 1, detection_cb);
+      |                                                                      ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/sub_sol.dir/build.make:63: CMakeFiles/sub_sol.dir/src/subscriber_sol.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1216: CMakeFiles/sub_sol.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

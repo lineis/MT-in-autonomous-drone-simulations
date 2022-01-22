@@ -1,0 +1,7 @@
+/home/thelinux/catkin_ws/src/iq_gnc/src/square.cpp: In function ‘int main(int, char**)’:
+/home/thelinux/catkin_ws/src/iq_gnc/src/square.cpp:18:2: error: ‘drone’ was not declared in this scope
+   18 |  drone.set_mode("GUIDED")
+      |  ^~~~~
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:242: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

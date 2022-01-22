@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/thelinux/catkin_ws/src/iq_gnc/src/subscriber_sol.cpp', needed by 'CMakeFiles/sub_sol.dir/src/subscriber_sol.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:1216: CMakeFiles/sub_sol.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2
