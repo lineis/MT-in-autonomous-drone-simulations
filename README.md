@@ -30,14 +30,14 @@ Single Drone Environment:
 terminal 1: roslaunch iq_sim file.launch
 terminal 2: ./startsitl.sh (or run sim_vehicle.py -v ArduCopter -f gazebo-iris)
 terminal 3: roslaunch iq_sim apm.launch (= MAVROS communication)
-terminal 4: rosrun iq_gnc avoidance_sol (obstacle avoidance script)
+terminal 4: rosrun iq_gnc <obstacle avoidance script>
 
 Multi-Drone Environment:
 terminal 1: roslaunch iq_sim multi_drone.launch
 terminal 2: ./multi-artdupilot.sh (= all SITL instances, i.e. for each drone: sim_vehicle.py -v ArduCopter -f gazebo-drone<int> -I<int>)
 terminal 3: roslaunch iq_sim multi-apm.launch (= all MAVROS instances, i.e. for each drone: `roslaunch iq_sim apm.launch fcu_url:=udp://127.0.0.1:<port>@<port> mavros_ns:=/drone<int> tgt_system:=<int>` )
 (...wait for ALL drones to use gps!)
-terminal 4: roslaunch iq_gnc multi_obs_avoid.launch (= all instances of the script)
+terminal 4: roslaunch iq_gnc <launchfile starting all instances of the script>
 
 Remember to check the launch files (which world/script is launched) as well as to use BASH (not zsh or others).
 While Python script changes merely require restarting the script, changes to any C++ files will require to re-run the following:
