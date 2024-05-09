@@ -1,4 +1,4 @@
-## Bachelor Thesis - Metamorphic Testing in the context of Autonomous Drone Simulations
+## Thesis - Metamorphic Testing in the context of Autonomous Drone Simulations
 
 Metamorphic Testing has seen an immense increase in popularity among software engineers and scientists ever since it was first introduced in 1998. It is a software testing technique that focuses on relations between inputs and outputs of a program rather than the inputs and outputs themselves. These relations are referred to as Metamorphic Relations, whose construction is non-trivial and usually requires expertise and domain knowledge. The nature of this strategy facilitates the testing of programs even in the absence of a test oracle. Examples for such programs are search engines, compilers, or simulators, the latter of which will provide the basis for the implementation within this project.
 
